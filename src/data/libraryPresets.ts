@@ -1,0 +1,258 @@
+import { Song } from '../types/music';
+
+export const CURATED_LIBRARY: Song[] = [
+  {
+    id: 'preset-1',
+    title: 'Chaand Ki Dehleez Pe',
+    subtitle: 'At the Threshold of the Moon',
+    artist: 'SurAI Ensemble feat. Lyra',
+    genre: 'Urdu Sufi & Acoustic Fusion',
+    mood: 'Soulful, Nostalgic & Spiritual',
+    key: 'Dm',
+    bpm: 88,
+    durationSec: 84,
+    scaleType: 'Bhairavi Minor',
+    summary: 'A mesmerizing Urdu Sufi ballad about longing, twilight whispers, and unsaid emotions beneath quiet stars.',
+    chordsProgression: ['Dm', 'Bb', 'C', 'Am'],
+    coverUrl: '/src/assets/images/cover_sufi_fusion_1793100110421.jpg',
+    createdAt: '2026-10-25T14:30:00Z',
+    isFavorite: true,
+    bioacousticData: {
+      frequencyHz: 432,
+      binauralBeatHz: 7.83,
+      biologicalMechanism: 'Earth Schumann Resonance (7.83Hz) and harmonic 432Hz string tuning for deep somatic calming.',
+      citationReference: 'Biomedical Acoustics & Heart Rate Variability - PubMed 30985227',
+    },
+    instrumentation: ['Acoustic Nylon Guitar', 'Warm Harmonium', 'Live Tabla Rhythm', 'Cello Swells'],
+    sections: [
+      {
+        sectionType: 'Intro',
+        lines: [
+          { lyric: 'Khamoshiyon ki ik sada hai...', translation: 'There is a call within silence...', timestampSec: 0, chord: 'Dm', vocalCue: '[Acoustic Guitar Strp]' },
+          { lyric: 'Raat aahista chali aayi...', translation: 'The night has gently descended...', timestampSec: 7, chord: 'Bb', vocalCue: '[Soft flute]' },
+        ],
+      },
+      {
+        sectionType: 'Verse 1',
+        lines: [
+          { lyric: 'Chaand ki dehleez pe baitha koi intezaar hai', translation: 'Someone waits upon the threshold of the moon', timestampSec: 14, chord: 'Dm', vocalCue: '[Melodic Voice]' },
+          { lyric: 'Haath mein khamosh sa ik be-naam sa taar hai', translation: 'In hands, a quiet nameless acoustic string', timestampSec: 21, chord: 'Bb', vocalCue: '[Warm Harmonium]' },
+          { lyric: 'Hawa ne chhoo ke pucha hai fasana kya tera', translation: 'The breeze touched and asked what is your story', timestampSec: 28, chord: 'C', vocalCue: '[Gentle]' },
+          { lyric: 'Dil ne kaha ke ab toh bas tera deedar hai', translation: 'The heart replied now only your glimpse remains', timestampSec: 35, chord: 'Am', vocalCue: '[Vocal vibrato]' },
+        ],
+      },
+      {
+        sectionType: 'Chorus',
+        lines: [
+          { lyric: 'Tu jo mila toh har lamha noor ban gaya', translation: 'When I found you, every moment turned to light', timestampSec: 42, chord: 'Dm', vocalCue: '[Soaring Harmony]' },
+          { lyric: 'Bhatka hua musafir ik fitoor ban gaya', translation: 'The wandering traveler turned into passion', timestampSec: 50, chord: 'Bb', vocalCue: '[Percussion swell]' },
+          { lyric: 'Chaand ki dehleez pe sajti hai yeh dua', translation: 'On the moon’s doorstep this prayer unfolds', timestampSec: 58, chord: 'C', vocalCue: '[Passionate]' },
+          { lyric: 'Sada rahe salamat yeh ishq ka silsila', translation: 'May this realm of love stay forever blessed', timestampSec: 66, chord: 'Dm', vocalCue: '[Full Chorus]' },
+        ],
+      },
+      {
+        sectionType: 'Outro',
+        lines: [
+          { lyric: 'Noor ban gaya... Ishq ban gaya...', translation: 'Turned to light... turned to eternal love...', timestampSec: 74, chord: 'Dm', vocalCue: '[Fading Echo]' },
+          { lyric: 'Chaand ki dehleez pe...', translation: 'At the threshold of the moon...', timestampSec: 80, chord: 'Dm', vocalCue: '[Guitar fade]' },
+        ],
+      },
+    ],
+  },
+  {
+    id: 'preset-2',
+    title: 'Midnight Monsoon Chai',
+    subtitle: 'Rainy Twilight Lo-Fi',
+    artist: 'Lo-Fi Mehfil & Tape Echo',
+    genre: 'Lo-Fi Chill & Urdu Poetry',
+    mood: 'Relaxed, Nostalgic & Cozy',
+    key: 'Fm',
+    bpm: 78,
+    durationSec: 80,
+    scaleType: 'Dorian Minor',
+    summary: 'Warm vinyl crackle, gentle Urdu lo-fi lyrics, soft electric piano chords, and raindrops trickling against a window pane.',
+    chordsProgression: ['Fm', 'Db', 'Eb', 'Cm'],
+    coverUrl: '/src/assets/images/cover_lofi_chill_1793100111550.jpg',
+    createdAt: '2026-10-26T10:15:00Z',
+    isFavorite: true,
+    bioacousticData: {
+      frequencyHz: 528,
+      binauralBeatHz: 10.0,
+      biologicalMechanism: 'Alpha 10Hz neural synchronization promoting calm alert focus with 528Hz Solfeggio undertone.',
+      citationReference: 'EEG Spectral Analysis of Alpha Beats - NeuroImage Journal 2024',
+    },
+    instrumentation: ['Rhodes Piano', 'Vintage 808 Hip-Hop Drum', 'Raindrop Ambience', 'Muted Bass'],
+    sections: [
+      {
+        sectionType: 'Intro',
+        lines: [
+          { lyric: 'Khidki pe barish ki boondein...', translation: 'Raindrops on the glass window...', timestampSec: 0, chord: 'Fm', vocalCue: '[Vinyl crackle]' },
+          { lyric: 'Garam chai aur purani baatein...', translation: 'Warm tea and memories of old times...', timestampSec: 8, chord: 'Db', vocalCue: '[Rhodes Keys]' },
+        ],
+      },
+      {
+        sectionType: 'Verse 1',
+        lines: [
+          { lyric: 'Yeh shehar so gaya magar meri neend kahan', translation: 'This city fell asleep but where is my rest', timestampSec: 16, chord: 'Fm', vocalCue: '[Chill flow]' },
+          { lyric: 'Khayalon ke darmayan dhoondun tera nishaan', translation: 'Between roaming thoughts I seek your trace', timestampSec: 24, chord: 'Db', vocalCue: '[Sub Bass]' },
+          { lyric: 'Chhoti si yeh zindagi, lamba hai safar', translation: 'Short is this life, yet so long the path', timestampSec: 32, chord: 'Eb', vocalCue: '[Relaxed]' },
+          { lyric: 'Har mod pe teri hi yaad ka asar', translation: 'At every turn the impression of your memory', timestampSec: 40, chord: 'Cm', vocalCue: '[Whispered]' },
+        ],
+      },
+      {
+        sectionType: 'Chorus',
+        lines: [
+          { lyric: 'Behti rahe yeh raat aahista aahista', translation: 'Let this night flow slowly, ever so gently', timestampSec: 48, chord: 'Fm', vocalCue: '[Warm Chorus]' },
+          { lyric: 'Bana le koi apna chhota sa rasta', translation: 'Carving out our own quiet little pathway', timestampSec: 56, chord: 'Db', vocalCue: '[Snare & hi-hat groove]' },
+          { lyric: 'Midnight monsoon, dilon ka fasana', translation: 'Midnight monsoon, a tale of entwined hearts', timestampSec: 64, chord: 'Eb', vocalCue: '[Echo melody]' },
+          { lyric: 'Sun le hawaon ka yeh meetha tarana', translation: 'Listen to the sweet melody of the wandering breeze', timestampSec: 72, chord: 'Fm', vocalCue: '[Outro Fade]' },
+        ],
+      },
+    ],
+  },
+  {
+    id: 'preset-3',
+    title: 'DNA Bio-Resonance 528',
+    subtitle: 'Codon Symphony & Neuro-Flow',
+    artist: 'Dr. BioSynth & Kavish',
+    genre: 'Bioacoustic Science & Electronic Ambient',
+    mood: 'Transcendent, Focus & Regenerative',
+    key: 'C',
+    bpm: 110,
+    durationSec: 86,
+    scaleType: 'Pentatonic Major (Solfeggio)',
+    summary: 'Acoustic sonification translating the Dopamine Receptor D2 gene sequence into a therapeutic harmonic tapestry.',
+    chordsProgression: ['C', 'G', 'Am', 'F'],
+    coverUrl: '/src/assets/images/cover_bioacoustic_1793100112208.jpg',
+    createdAt: '2026-10-27T01:00:00Z',
+    isFavorite: true,
+    bioacousticData: {
+      frequencyHz: 528,
+      binauralBeatHz: 10.0,
+      biologicalMechanism: 'Direct audio translation of DRD2 codon triplets into melodic intervals, generating dopamine reward pathway stimulation.',
+      citationReference: 'UniProt P14416 & Acoustic Molecular Sonification Studies (Nature Science 2023)',
+    },
+    instrumentation: ['Glass Marimba', 'Analog Synth Arpeggiator', 'Binaural Carrier 528Hz', 'Sub-Harmonic Kick'],
+    sections: [
+      {
+        sectionType: 'Intro',
+        lines: [
+          { lyric: 'Codon sequence ATGGAT... cell awakening...', translation: 'Biological origin mapping initiated...', timestampSec: 0, chord: 'C', vocalCue: '[Pure 528Hz Drone]' },
+          { lyric: 'Frequency harmonics align to 528 Hertz...', translation: 'Neural wave entrainment active...', timestampSec: 8, chord: 'G', vocalCue: '[Arpeggiated Glass]' },
+        ],
+      },
+      {
+        sectionType: 'Verse 1',
+        lines: [
+          { lyric: 'Rag rag mein behti hai roshni ki ik lehar', translation: 'Through every vein flows a wave of radiant light', timestampSec: 16, chord: 'C', vocalCue: '[Clear Voice]' },
+          { lyric: 'Zehan ko sukoon de yeh taaza sa sehar', translation: 'Granting the mind tranquil solace this morning', timestampSec: 24, chord: 'G', vocalCue: '[Stereo Panned]' },
+          { lyric: 'DNA ke suron mein dharakte hain khwaab', translation: 'Within the notes of DNA, dreams rhythmically beat', timestampSec: 32, chord: 'Am', vocalCue: '[Uplifting]' },
+          { lyric: 'Har sawal ka yahan mil gaya jawab', translation: 'Here every questioning thought finds its clarity', timestampSec: 40, chord: 'F', vocalCue: '[Harmonic Rise]' },
+        ],
+      },
+      {
+        sectionType: 'Chorus',
+        lines: [
+          { lyric: 'Vibrate higher, rooh ko jagaye', translation: 'Vibrate higher, awaken the deep spirit', timestampSec: 48, chord: 'C', vocalCue: '[Full Synth Brass]' },
+          { lyric: '528 Hertz nayi taazgi laaye', translation: '528 Hertz brings renewal and restorative bliss', timestampSec: 56, chord: 'G', vocalCue: '[Driving Beat]' },
+          { lyric: 'Science aur suron ka kaisa yeh sangam', translation: 'What a miraculous confluence of science and melody', timestampSec: 64, chord: 'Am', vocalCue: '[Lead Synth]' },
+          { lyric: 'Mit gaye hain saare bechaini ke gham', translation: 'Dissolved are all unrest and sorrowful burdens', timestampSec: 72, chord: 'F', vocalCue: '[Climax & Fade]' },
+        ],
+      },
+    ],
+  },
+  {
+    id: 'preset-4',
+    title: 'Aye Karbala Di Dharti',
+    subtitle: 'Heartbreaking Punjabi & Urdu Noha',
+    artist: 'Syed Ali & Anjuman-e-Aza',
+    genre: 'Traditional Noha & Marsiya',
+    mood: 'Solemn, Heartfelt Grief & Lament',
+    key: 'Dm',
+    bpm: 58,
+    durationSec: 88,
+    scaleType: 'Bhairavi Minor (Sorrowful Elegy)',
+    compositionType: 'noha',
+    language: 'Punjabi & Urdu',
+    summary: 'A deeply moving traditional Noha recounting the loneliness of Sham-e-Ghariban, the courage of Bibi Zainab, and the sacrifice of Hazrat Abbas.',
+    chordsProgression: ['Dm', 'Bb', 'C', 'Am'],
+    coverUrl: '/src/assets/images/cover_sufi_fusion_1793100110421.jpg',
+    createdAt: '2026-10-27T03:00:00Z',
+    isFavorite: true,
+    instrumentation: ['Solemn Matami Heartbeat Pulse', 'Mournful Ney Flute', 'Dark Acoustic Cello', 'Reverent Vocal Chorus'],
+    sections: [
+      {
+        sectionType: 'Noha Matam (Chorus)',
+        lines: [
+          { lyric: 'Aye Karbala di dharti, das kithay Abbas gaya...', translation: 'O land of Karbala, tell where has Abbas gone...', timestampSec: 0, chord: 'Dm', vocalCue: '[Solemn Matam Pulse]' },
+          { lyric: 'Zainab pukardi hai, mera aasra tur gaya...', translation: 'Zainab calls out, my refuge has departed...', timestampSec: 9, chord: 'Bb', vocalCue: '[Mournful Ney]' },
+          { lyric: 'Khyma jaley ne ran vich, be-aas ho gaye aan...', translation: 'Tents are burning in the plains, we have become shelterless...', timestampSec: 18, chord: 'C', vocalCue: '[Chest-beating pulse]' },
+          { lyric: 'Aye Karbala di dharti, das kithay Abbas gaya...', translation: 'O land of Karbala, tell where has Abbas gone...', timestampSec: 27, chord: 'Dm', vocalCue: '[Full Chorus Recital]' },
+        ],
+      },
+      {
+        sectionType: 'Band 1',
+        lines: [
+          { lyric: 'Asghar masoom rove, kithay teer lag gaya', translation: 'Innocent Asghar weeps, where struck the cruel arrow', timestampSec: 36, chord: 'Dm', vocalCue: '[Quiet Sorrow]' },
+          { lyric: 'Maa lori kivein deve, jhoola vi kho gaya', translation: 'How can the mother sing a lullaby when the cradle too is lost', timestampSec: 45, chord: 'Bb', vocalCue: '[Cello Swell]' },
+          { lyric: 'Ronda zameen o aasmaan, Karbobala de vich', translation: 'Earth and sky weep together in Karbala', timestampSec: 54, chord: 'C', vocalCue: '[Rising Lament]' },
+          { lyric: 'Tanhayi reh gayi hai, Shaah-e-Huda de vich', translation: 'Only loneliness remains around the King of Guidance', timestampSec: 63, chord: 'Am', vocalCue: '[Choral refrain]' },
+        ],
+      },
+      {
+        sectionType: 'Salam & Maqta',
+        lines: [
+          { lyric: 'Salam bar Hussain o bar Shaheedan-e-Wafa', translation: 'Peace be upon Hussain and the loyal martyrs', timestampSec: 72, chord: 'Dm', vocalCue: '[Reverent Salam]' },
+          { lyric: 'Qayamat talak rahega yeh gham-e-Aza...', translation: 'Until the Day of Judgment this mourning shall endure...', timestampSec: 80, chord: 'Dm', vocalCue: '[Fade Out]' },
+        ],
+      },
+    ],
+  },
+  {
+    id: 'preset-5',
+    title: 'Salam Ya Mazloom-e-Karbala',
+    subtitle: 'Urdu & Arabic Classical Marsiya',
+    artist: 'Marsiyakhwan Mir Rizvi',
+    genre: 'Classical Marsiya & Noha',
+    mood: 'Dignified Grief & Spiritual Reverence',
+    key: 'Am',
+    bpm: 62,
+    durationSec: 82,
+    scaleType: 'A Minor Hijaz',
+    compositionType: 'noha',
+    language: 'Urdu & Arabic',
+    summary: 'A classic Musaddas Marsiya with deep poetic eloquence honoring the steadfastness, truth, and eternal memory of Imam Hussain (a.s).',
+    chordsProgression: ['Am', 'F', 'G', 'Em'],
+    coverUrl: '/src/assets/images/cover_sufi_fusion_1793100110421.jpg',
+    createdAt: '2026-10-27T04:00:00Z',
+    isFavorite: true,
+    instrumentation: ['Slow Dhadkan Beat', 'Sorrowful String Ensemble', 'Eastern Oud & Ney'],
+    sections: [
+      {
+        sectionType: 'Noha Matam (Chorus)',
+        lines: [
+          { lyric: 'Salam Ya Hussain... Salam Ya Mazloom...', translation: 'Peace upon you O Hussain... Peace upon the oppressed...', timestampSec: 0, chord: 'Am', vocalCue: '[Deep Echo]' },
+          { lyric: 'Har daur mein zinda hai tera naam Hussain...', translation: 'In every era your sacred name lives on O Hussain...', timestampSec: 9, chord: 'F', vocalCue: '[Dhadkan Beat]' },
+        ],
+      },
+      {
+        sectionType: 'Band 1',
+        lines: [
+          { lyric: 'Sajde mein sar kata ke shariat bacha li', translation: 'By giving your head in prostration, you preserved the faith', timestampSec: 18, chord: 'Am', vocalCue: '[Eloquent Marsiya]' },
+          { lyric: 'Tauheed ki shama ko lahu se jala li', translation: 'Kindling the flame of Divine Unity with pure blood', timestampSec: 28, chord: 'F', vocalCue: '[String sustain]' },
+          { lyric: 'Jaan de ke deen-e-Haq ko amar kar diya', translation: 'Giving your soul you immortalized the true path', timestampSec: 38, chord: 'G', vocalCue: '[Vocal Elevation]' },
+          { lyric: 'Zulm-o-sitam ke daur ko be-asar kar diya', translation: 'Rendering the reign of tyranny powerless and hollow', timestampSec: 48, chord: 'Em', vocalCue: '[Solemn Descent]' },
+        ],
+      },
+      {
+        sectionType: 'Radd-e-Amal (Refrain)',
+        lines: [
+          { lyric: 'Salam Ya Hussain... Salam Ya Shaheed...', translation: 'Peace upon you O Hussain... Peace upon the ultimate martyr...', timestampSec: 58, chord: 'Am', vocalCue: '[Full Matam]' },
+          { lyric: 'Haq ki sada hamesha goonjegi Karbala se...', translation: 'The voice of truth will forever echo from Karbala...', timestampSec: 68, chord: 'F', vocalCue: '[Matam Double Strike]' },
+          { lyric: 'Salam Ya Mazloom...', translation: 'Peace upon you O oppressed master...', timestampSec: 76, chord: 'Am', vocalCue: '[Final whisper]' },
+        ],
+      },
+    ],
+  },
+];
+
